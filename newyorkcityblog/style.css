@@ -1,115 +1,192 @@
+
 body {
-	background: #e6e6e6;
+    /* Sets the background color of the page */
+    background: #e6e6e6;
 }
+
 
 nav ul {
-	list-style-type: none;
-	margin: 0;
-	padding: 0;
-	overflow: hidden;
-	background-color: #010e80;
-	display: table;
-	width: 100%;
+    /* Removes default list styling  */
+    list-style-type: none;
+    /* Removes margin around the list */
+    margin: 0;
+    /* Removes padding from the list */
+    padding: 0;
+   
+    overflow: hidden;
+    /* Sets the background color of the navigation bar */
+    background-color: #010e80;
+    /* makes the navigation items a table */
+    display: table;
+    /* Makes the navigation bar the full width of the page */
+    width: 100%;
 }
+
 
 nav li {
-	display: table-cell
+    /* Makes each list item a table cell */
+    display: table-cell;
 }
+
 
 li a {
-	display: block;
-	color: white;
-	text-align: center;
-	padding: 30px 30px;
-	text-decoration: none;
+    /* Makes the link block-level */
+    display: block;
+    /* Sets the text color to white */
+    color: white;
+    /* Centers the text */
+    text-align: center;
+    /* Adds padding inside the links */
+    padding: 30px 30px;
+    /* Removes the underline from the links */
+    text-decoration: none;
 }
+
 
 li a:hover {
-	background-color: #111;
+    /* Changes the background color to dark gray when hovering over a link */
+    background-color: #111;
 }
+
 
 h2 a {
-	padding: 33px 25px;
-	color: white;
-	text-decoration: none;
+    /* Adds padding  */
+    padding: 33px 25px;
+    /* Sets the link color to white */
+    color: white;
+    /* Removes the underline from the link */
+    text-decoration: none;
 }
+
 
 h2 a:hover {
-	background-color: #111;
+    /* Changes the background color to dark gray when hovering over a link */
+    background-color: #111;
 }
 
-figcaption{
-  text-align:left;
+
+figcaption {
+    /* Aligns the caption text to the left */
+    text-align: left;
 }
+
 
 header {
-	margin-left: 14px;
+    
+    margin-left: 14px;
 }
+
 
 article {
-	text-align: left;
-	margin: 15px;
-	max-width: 80%;
-	font-size: 18px;
-	line-height: 32px;
+    /* Aligns text to the left */
+    text-align: left;
+    /* Adds margin  */
+    margin: 15px;
+  
+    max-width: 80%;
+    /* Sets the font size of the text  */
+    font-size: 18px;
+
+    line-height: 32px;
 }
+
 
 img {
-	width: 400px;
-	height: 300px;
-  position:relative;
-  right:28px;
+    /* Sets the width and height for images */
+    width: 400px;
+    height: 300px;
+    /* Positions the image relatively */
+    position: relative;
+    /* move the image to the left  */
+    right: 28px;
 }
+
 
 aside {
-	left: 10px;
-	border: 1px solid black;
-	padding: 15px;
-	max-width: 80%;
-	position: relative;
-	border-color: #010e80;
-	border-width: 5px;
-	font-size: 18px;
+    /* move the sidebar to the left */
+    left: 10px;
+    /* Adds a black border around the sidebar */
+    border: 1px solid black;
+    /* Adds padding inside the sidebar */
+    padding: 15px;
+ 
+    max-width: 80%;
+    /* Positions the sidebar relatively */
+    position: relative;
+    /* Sets the border color of the sidebar to blue */
+    border-color: #010e80;
+    /* Increases the border width */
+    border-width: 5px;
+    /* Sets the font size inside the sidebar */
+    font-size: 18px;
 }
+
 
 footer {
-	position: relative;
-	width: 100%;
-	bottom: -100px;
-	background-color: #010e80;
+  
+    position: relative;
+    /* Makes the footer span the full width of the page */
+    width: 100%;
+    /* Moves the footer upwards  */
+    bottom: -100px;
+    /* Sets the background color of the footer */
+    background-color: #010e80;
 }
+
 
 footer p {
-	color: white;
-	text-decoration: none;
-	padding: 10px;
-	text-align: center;
-	width: 100%;
-	box-sizing: border-box;
+    /* Sets the text color to white */
+    color: white;
+    /* Removes underline from the text */
+    text-decoration: none;
+    /* Adds padding inside the paragraph */
+    padding: 10px;
+    /* Centers the text  */
+    text-align: center;
+    /* Makes the paragraph span the full width of the footer */
+    width: 100%;
+   
+    box-sizing: border-box;
 }
+
 
 footer a {
-	color: white;
-	text-decoration: none;
-	text-align: center;
-	width: 100%;
+    /* Sets the text color to white */
+    color: white;
+    /* Removes underline from the link */
+    text-decoration: none;
+    /* Centers the text  */
+    text-align: center;
+    /* link span the full width of the footer */
+    width: 100%;
 }
+
 
 video {
-	display: block;
-	width: 420px;
-	height: 250px;
-  padding:15px;
+    /* Displays the video as a block-level element  */
+    display: block;
+    /* Sets the width and height of the video */
+    width: 420px;
+    height: 250px;
+    /* Adds padding around the video */
+    padding: 15px;
 }
+
 
 audio {
-	padding: 15px;
-	width: 98%;
-  box-sizing: border-box;
+    /* Adds padding around the audio */
+    padding: 15px;
+    /* Sets the width  */
+    width: 98%;
+   
+    box-sizing: border-box;
 }
 
+
 embed {
-	width: 400px;
-	height: 458px;
-  padding:15px;
+    /* Sets the width and height */
+    width: 400px;
+    height: 458px;
+    /* Adds padding  */
+    padding: 15px;
 }
